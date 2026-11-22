@@ -1,0 +1,15 @@
+{
+  "number": 8,
+  "name": "ConformalLab",
+  "short": "Conformal prediction sets",
+  "summary": "Measure prediction-set coverage and size on independent calibration/test slices and concept shift.",
+  "profile": "core",
+  "timeout": 600,
+  "scope": "Synthetic split-conformal binary prediction sets. Exchangeability assumptions do not hold for the concept-shift slice.",
+  "skills": [
+    "Python",
+    "Machine Learning",
+    "Data Processing",
+    "Software Testing"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "project": "ConformalLab",
+  "number": 8,
+  "status": "local_run_passed",
+  "timestamp_utc": "2026-11-20T04:28:56Z",
+  "duration_seconds": 0.14866352081298828,
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.4.6",
+    "Pillow": "13.0.0"
+  },
+  "source_sha256": {
+    "common.py": "6824312bac56d81a071760617f624272948f76fcae8190f8168a8911c8f7e8b0",
+    "experiment.py": "f9e4213ba392a5581a3a089d9e18622ebae46a98c24f56ce372349bf1ab465c0",
+    "run.py": "f59c8f7399ab614d89f8a565b96f60875e75284d439fe5a38bd6837c730dfdbf"
+  },
+  "result": {
+    "alpha": 0.1,
+    "calibration_quantile": 0.6054954001976884,
+    "iid": {
+      "coverage": 0.89,
+      "mean_set_size": 1.085,
+      "empty_sets": 0,
+      "cases": 200
+    },
+    "concept_shift": {
+      "coverage": 0.54,
+      "mean_set_size": 1.085,
+      "empty_sets": 0,
+      "cases": 200
+    },
+    "checks": [
+      "Disjoint calibration records",
+      "Valid finite-sample quantile"
+    ],
+    "scope": "Synthetic split-conformal binary prediction sets. Exchangeability assumptions do not hold for the concept-shift slice."
+  },
+  "models_used": [],
+  "publication_note": "Local fixture checks passed, not independent validation or user approval. Review this run before publishing."
+}
